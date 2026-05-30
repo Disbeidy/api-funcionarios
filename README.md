@@ -52,6 +52,4 @@ java -cp ".;lib/mysql-connector-j-9.7.0.jar" PruebaGeneral
 -Proyecto totalmente académico.
 
 ## 🧠 Integrantes: 
-° Daniela Anzueta Gongora
-° Disbeidy Anzueta Gongora
-° Sebastian Posada Duque.
+° Daniela Anzueta Gongora, Disbeidy Anzueta Gongora y Sebastian Posada Duque.

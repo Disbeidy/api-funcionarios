@@ -1,0 +1,11 @@
+# Archivos sensibles
+db.properties
+.env
+GenerarPassword.js
+
+# Archivos compilados y temporales
+*.class
+*.log
+bin/
+target/
+node_modules/

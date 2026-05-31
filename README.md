@@ -45,6 +45,25 @@ java -cp ".;lib/mysql-connector-j-9.7.0.jar" PruebaGeneral
 -Funcionario insertado, actualizado y eliminado (Juan Veintemillo).
 -Usuario insertado, actualizado y eliminado (Usuario Prueba)
 
+## 🔑 Autenticación
+Para acceder a las rutas protegidas es necesario hacer login
+-POST /api/login y el token debe enviarse en los headers.
+
+## 👥 Roles y permisos
+**Admin**
+
+Crear inventarios (POST /api/inventarios)
+
+Editar inventarios (PUT /api/inventarios/:id)
+
+Eliminar inventarios (DELETE /api/inventarios/:id)
+
+Listar inventarios (GET /api/inventarios)
+
+**Docente**
+Solo puede listar inventarios (GET /api/inventarios)
+
+
 ## 🗒️Notas
 -Este proyecto es solo backend (API), no incluye frontend.
 -Los ejemplos CRUD son pruebas de validación y no forman parte del flujo final de la API.
